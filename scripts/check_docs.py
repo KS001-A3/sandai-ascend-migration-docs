@@ -31,7 +31,7 @@ FORBIDDEN = [
 
 META_RE = re.compile(r"^> 版本[：:]", re.M)
 DOC_NAME_RE = re.compile(r"^\d{2}_.+\.md$")
-FOLDER_RE = re.compile(r"^\d{2}-[a-z][a-z0-9-]*$")
+FOLDER_RE = re.compile(r"^\d{2}-[^/\s]+$")
 LINK_RE = re.compile(r"\[[^\]]*\]\(([^)\s]+)\)")
 
 
@@ -71,7 +71,7 @@ def check_folders(errs: list):
         return
     for d in sorted(DOCS.iterdir()):
         if d.is_dir() and not FOLDER_RE.match(d.name):
-            errs.append(f"docs/{d.name}/: 目录名不符合 NN-英文名（如 10-environment）")
+            errs.append(f"docs/{d.name}/: 目录名不符合 NN-中文名（如 10-环境与构建）")
         if d.is_dir() and not (d / "README.md").exists():
             errs.append(f"docs/{d.name}/: 缺少分层的 README.md 索引")
 
