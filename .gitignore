@@ -1,0 +1,36 @@
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 构建 / 临时 ----
+build/
+dist/
+*.log
+*.tmp
+*.bak
+
+# ---- 内部资料（永不入库） ----
+# 客户数据、模型、二进制、合同、原始日志、账号
+*.ccf
+*.engine
+*.om
+*.so
+*.a
+*.npy
+*.npz
+原始资料/
+工作区/
+模型/
+数据/
