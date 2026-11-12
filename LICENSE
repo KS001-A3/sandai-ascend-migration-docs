@@ -11,7 +11,7 @@
 惟须遵守以下条件：
 
 - **署名（Attribution）** — 必须给出适当的署名，提供指向本许可协议的链接，并说明是否作出了修改。署名方式示例：
-  > 本文档基于 "ms_basecall / cudacall → Ascend 910B · 迁移与基线文档集"（CC BY 4.0）整理，并做了修改。
+ > 本文档基于 "sandai-basecall / sandai-core → Ascend 910B · 迁移与基线文档集"（CC BY 4.0）整理，并做了修改。
 
 - 不得增加法律条款或技术措施，限制他人依本许可协议所允许的行为。
 
@@ -24,6 +24,31 @@
 
 ## 免责声明
 
-- 本仓库为**脱敏后的工程文档**，不包含客户数据、验收合同原文、模型文件或任何账号凭据；
+- 本仓库为**脱敏后的工程文档**，不包含 HDJY 数据、验收合同原文、模型文件或任何账号凭据；
 - 文中涉及第三方开源项目（如 openfish、Dorado、TensorRT、PyTorch、libsodium 等）时，其许可与合规义务以各项目官方许可为准；
 - 文档中的指标口径、门槛与结论以实际项目合同与实测报告为准，本仓库不构成任何交付承诺。
+
+---
+
+## 代码许可：MIT License（仅限 `scripts/` 目录）
+
+Copyright (c) 2026 sandai-basecall contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
